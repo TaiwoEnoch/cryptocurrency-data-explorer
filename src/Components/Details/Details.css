@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   padding: 50px;
-  background-color: #000826c4;
+  background-color: #09184fc4;
 }
 
 .indiImg {
@@ -16,7 +16,7 @@
 }
 
 .detailTitle {
-  background-color: #000826f3;
+  background-color: #040509f3;
   padding: 7px 30px;
 }
 
@@ -27,23 +27,23 @@
 }
 
 .info:nth-child(even) {
-  background-color: #000826f3;
+  background-color: #809fee;
 }
 
 .info:nth-child(odd) {
-  background-color: #061138ef;
+  background-color: #191e2eef;
 }
 
 .infoLink {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  background-color: #061138ef;
+  background-color: #343e60ef;
   padding: 20px 30px;
 }
 
 .infoLink:nth-child(even) {
-  background-color: #000826f3;
+  background-color: #17224cf3;
 }
 
 .coin-info {
