@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cryptocurrency-data-explorer/static/css/main.d1ebd798.css",
+    "main.js": "/cryptocurrency-data-explorer/static/js/main.00520170.js",
+    "static/media/crypto bcc.PNG": "/cryptocurrency-data-explorer/static/media/crypto bcc.4d760b80043958840d16.PNG",
+    "static/media/coin34.bg.jpg": "/cryptocurrency-data-explorer/static/media/coin34.bg.2e058dae040057c05e6c.jpg",
+    "index.html": "/cryptocurrency-data-explorer/index.html",
+    "main.d1ebd798.css.map": "/cryptocurrency-data-explorer/static/css/main.d1ebd798.css.map",
+    "main.00520170.js.map": "/cryptocurrency-data-explorer/static/js/main.00520170.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1ebd798.css",
+    "static/js/main.00520170.js"
+  ]
+}
