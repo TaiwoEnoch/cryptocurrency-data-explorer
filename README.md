@@ -1,70 +1,141 @@
-# Getting Started with Create React App
-# Hello World
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a name="readme-top"></a>
+![](https://img.shields.io/badge/CRYPTOCURRENCIESAPP-violetpink)
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-### `npm start`
+# 📖Cryptocurrency Data Explorer
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<a name="about-project"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Cryptocurrency Data Explorer
 
-### `npm test`
+The crypto currency data explorer app is a powerful tool that allows users to delve deep into the world of digital currencies. With real-time updates and advanced analytical tools, this app provides a comprehensive view of the cryptocurrency market, allowing users to make informed decisions about their investments.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When the homepage is loaded, the user can view a list of various currencies that they can filter based on the currency name. Upon selecting a particular currency, the user is redirected to a details page that retrieves comprehensive information from the API associated with the selected coin.
 
-### `npm run build`
+The application is constructed using React, Redux, and CSS, leveraging the Redux Thunk middleware to manage asynchronous actions and the Fetch API to access data from the NAPI. Moreover, the application is entirely responsive, adjusting to different screen sizes and devices.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![screenshot](./src/Assets/mobile.homepage.PNG?raw=true "Crypto Mobile App")
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[PROJECT DOCUMENTATION](https://www.loom.com/share/a6852735f2c04c96b7db2df9b4182d1b)
 
-### `npm run eject`
+<!-- LIVE DEMO -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Live Demo <a name="live-demo"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [http://TaiwoEnoch.github.io/cryptocurrency-data-explorer/]
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠 Built With <a name="built-with"></a>
 
-## Learn More
+- React and redux
+- Visual Studio Code
+- Git & Github
+- CSS
+- Fetch API
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Key Features
 
-### Code Splitting
+- Browse a list of available currencies
+- Filter currencies by name
+- View Cryptocurrencies values related to each specific currency
+- Navigate to a details page to view detailed data for each currency
+- Fully responsive design, adapting to different screen sizes and devices
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To get a local copy up and running follow these simple example steps.
 
-### Making a Progressive Web App
+- Open terminal
+- Clone this project by the command `https://github.com/TaiwoEnoch/cryptocurrency-data-explorer.git`
+- `cd <clone>` folder
+- Run `npm start` in your local browser or using Live Server in Visual Studio Code.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Prerequisites
 
-### Advanced Configuration
+- IDE to edit and run the code (We use Visual Studio Code 🔥).
+- [Node.js](https://nodejs.org/en/download/) already downloaded.
+- Create React App - [click here to getting started](https://create-react-app.dev/docs/getting-started).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Setup
 
-### Deployment
+Clone this repository to your desired folder:
+`cd my-folder`
+`git clone https://github.com/TaiwoEnoch/cryptocurrency-data-explorer.git`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Usage
+To run the project execute the command below 
 
-### `npm run build` fails to minify
+`npm start` 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Run tests
+
+To run tests, run the following command:
+
+- npx eslint "\*_/_.{js,jsx}"
+
+### Future Features
+
+- Create an interactive web application using React and Redux that allows users to explore Cryptocurrencies data in a variety of currencies.
+- Add a crypto news feed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Author
+ <a name="authors"></a>
+
+👤 **Enoch Taiwo**
+
+- [Github](https://github.com/TaiwoEnoch)
+- [Linkedin](https://www.linkedin.com/in/taiwo01/)
+- [Twitter](https://twitter.com/taiwoenoch4)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project you can give it a ⭐️.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Hat tip to [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) as his design was used 🔰
+- The standup team 🏹⚡
+- My Family 🙌
+- Kudos to my coding partners
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
