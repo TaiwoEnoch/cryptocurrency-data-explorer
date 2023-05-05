@@ -37,7 +37,13 @@ The application is constructed using React, Redux, and CSS, leveraging the Redux
 
 [PROJECT DOCUMENTATION](https://www.loom.com/share/2d11d6428d4746378f20174565d15e09)
 
-[LIVE DEMO](http://TaiwoEnoch.github.io/cryptocurrency-data-explorer/)
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [http://TaiwoEnoch.github.io/cryptocurrency-data-explorer/]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,6 +52,8 @@ The application is constructed using React, Redux, and CSS, leveraging the Redux
 - Git & Github
 - CSS
 - Fetch API
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Key Features
 
@@ -78,6 +86,11 @@ Clone this repository to your desired folder:
 `cd my-folder`
 `git clone https://github.com/TaiwoEnoch/cryptocurrency-data-explorer.git`
 
+### Usage
+To run the project execute the command below 
+
+`npm start` 
+
 ### Run tests
 
 To run tests, run the following command:
@@ -91,7 +104,8 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author
+ <a name="authors"></a>
 
 👤 **Enoch Taiwo**
 
