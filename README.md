@@ -37,7 +37,7 @@ The application is constructed using React, Redux, and CSS, leveraging the Redux
 
 [PROJECT DOCUMENTATION]()
 
-[LIVE DEMO]()
+[LIVE DEMO](http://TaiwoEnoch.github.io/cryptocurrency-data-explorer/)
 
 ## 🛠 Built With <a name="built-with"></a>
 
