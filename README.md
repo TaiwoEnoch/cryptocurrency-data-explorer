@@ -35,7 +35,7 @@ The application is constructed using React, Redux, and CSS, leveraging the Redux
 
 ![screenshot](./src/Assets/mobile.homepage.PNG?raw=true "Crypto Mobile App")
 
-[PROJECT DOCUMENTATION]()
+[PROJECT DOCUMENTATION](https://www.loom.com/share/2d11d6428d4746378f20174565d15e09)
 
 [LIVE DEMO](http://TaiwoEnoch.github.io/cryptocurrency-data-explorer/)
 
