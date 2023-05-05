@@ -35,7 +35,7 @@ The application is constructed using React, Redux, and CSS, leveraging the Redux
 
 ![screenshot](./src/Assets/mobile.homepage.PNG?raw=true "Crypto Mobile App")
 
-[PROJECT DOCUMENTATION](https://www.loom.com/share/2d11d6428d4746378f20174565d15e09)
+[PROJECT DOCUMENTATION](https://www.loom.com/share/a6852735f2c04c96b7db2df9b4182d1b)
 
 <!-- LIVE DEMO -->
 
